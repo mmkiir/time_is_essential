@@ -2,7 +2,7 @@ extends Node2D
 
 
 export var WATCH_HAND_REVOLUTION_PERIOD: int = 60 # Seconds
-export var WATCH_HAND_SMALL_REVOLUTION_PERIOD: int = 1 # Seconds
+export var WATCH_HAND_SMALL_REVOLUTION_PERIOD: float = 1 # Seconds
 export var SWEET_SPOT_ANGLE: float = 30
 
 
