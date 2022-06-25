@@ -1,4 +1,6 @@
 extends Node2D
 
 
-var dict_state = {}
+var dict_state = {
+	"BOX_OPENED": false
+}
