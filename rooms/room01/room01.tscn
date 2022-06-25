@@ -16,7 +16,7 @@ texture = ExtResource( 1 )
 position = Vector2( 480, 260 )
 
 [node name="BoxClosed" parent="." instance=ExtResource( 3 )]
-position = Vector2( 584, 384 )
+position = Vector2( 576, 376 )
 
 [node name="BoxOpen" parent="." instance=ExtResource( 4 )]
 position = Vector2( 576, 376 )
