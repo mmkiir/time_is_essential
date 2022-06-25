@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://global.gd" type="Script" id=1]
+
+[node name="Global" type="Node2D"]
+script = ExtResource( 1 )
+
+[connection signal="script_changed" from="." to="." method="_on_Node2D_script_changed"]
