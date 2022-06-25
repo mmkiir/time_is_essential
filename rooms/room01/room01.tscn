@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://rooms/room01/room01_bg.jpg" type="Texture" id=1]
 [ext_resource path="res://items/door/door.tscn" type="PackedScene" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://items/carpet_moved/carpet_moved.tscn" type="PackedScene" id=8]
 [ext_resource path="res://items/carpet/carpet.tscn" type="PackedScene" id=9]
 [ext_resource path="res://items/carpet_key/carpet_key.tscn" type="PackedScene" id=10]
+[ext_resource path="res://items/cat/cat.tscn" type="PackedScene" id=11]
+[ext_resource path="res://items/box_toy/box_toy.tscn" type="PackedScene" id=12]
 
 [node name="Node2D" type="Node2D"]
 
@@ -22,6 +24,9 @@ texture = ExtResource( 1 )
 position = Vector2( 480, 260 )
 
 [node name="BoxClosed" parent="." instance=ExtResource( 3 )]
+position = Vector2( 576, 376 )
+
+[node name="BoxToy" parent="." instance=ExtResource( 12 )]
 position = Vector2( 576, 376 )
 
 [node name="BoxOpen" parent="." instance=ExtResource( 4 )]
@@ -44,3 +49,6 @@ position = Vector2( 344, 480 )
 
 [node name="CarpetMoved" parent="." instance=ExtResource( 8 )]
 position = Vector2( 344, 480 )
+
+[node name="Cat" parent="." instance=ExtResource( 11 )]
+position = Vector2( 752, 504 )
