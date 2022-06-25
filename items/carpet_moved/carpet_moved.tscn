@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://items/item.tscn" type="PackedScene" id=1]
+[ext_resource path="res://items/carpet_moved/carpet_moved.png" type="Texture" id=2]
+[ext_resource path="res://items/carpet_moved/carpet_moved.gd" type="Script" id=3]
+
+[node name="CarpetMoved" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="Sprite" parent="." index="1"]
+texture = ExtResource( 2 )
