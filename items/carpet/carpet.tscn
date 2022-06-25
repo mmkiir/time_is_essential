@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://items/item.tscn" type="PackedScene" id=1]
+[ext_resource path="res://items/carpet/carpet.png" type="Texture" id=2]
+[ext_resource path="res://items/carpet/carpet.gd" type="Script" id=3]
+
+[node name="Carpet" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" index="0"]
+polygon = PoolVector2Array( 8, -32, -56, -32, -56, 32 )
+
+[node name="Sprite" parent="." index="1"]
+texture = ExtResource( 2 )
