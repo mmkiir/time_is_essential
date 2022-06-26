@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://items/item.tscn" type="PackedScene" id=1]
 [ext_resource path="res://items/carpet/carpet.png" type="Texture" id=2]
 [ext_resource path="res://items/carpet/carpet.gd" type="Script" id=3]
+[ext_resource path="res://items/carpet/147885__smiley-dan__chair-sliding-on-carpet.wav" type="AudioStream" id=4]
 
 [node name="Carpet" instance=ExtResource( 1 )]
 script = ExtResource( 3 )
@@ -12,3 +13,6 @@ polygon = PoolVector2Array( 8, -32, -56, -32, -56, 32 )
 
 [node name="Sprite" parent="." index="1"]
 texture = ExtResource( 2 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." index="2"]
+stream = ExtResource( 4 )

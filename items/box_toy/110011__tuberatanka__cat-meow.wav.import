@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/110011__tuberatanka__cat-meow.wav-44a90fd3d9bc45e4ba55c60aaaf58ea3.sample"
+
+[deps]
+
+source_file="res://items/box_toy/110011__tuberatanka__cat-meow.wav"
+dest_files=[ "res://.import/110011__tuberatanka__cat-meow.wav-44a90fd3d9bc45e4ba55c60aaaf58ea3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

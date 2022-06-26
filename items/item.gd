@@ -9,7 +9,7 @@ func _on_click():
 
 
 func _process(delta):
-	if Input.is_action_pressed("ui_touch") and _mouse_inside_area:
+	if Input.is_action_just_pressed("ui_touch") and _mouse_inside_area:
 		_on_click()
 
 

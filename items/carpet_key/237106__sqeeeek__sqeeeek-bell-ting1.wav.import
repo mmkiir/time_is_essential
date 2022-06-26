@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/237106__sqeeeek__sqeeeek-bell-ting1.wav-33c6be9e2c993b5d3a22b007827e5698.sample"
+
+[deps]
+
+source_file="res://items/carpet_key/237106__sqeeeek__sqeeeek-bell-ting1.wav"
+dest_files=[ "res://.import/237106__sqeeeek__sqeeeek-bell-ting1.wav-33c6be9e2c993b5d3a22b007827e5698.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
