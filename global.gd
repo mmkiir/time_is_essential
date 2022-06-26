@@ -8,4 +8,5 @@ var dict_state = {
 	"KEY01_TAKEN": false,
 	"CARPET_MOVED": false,
 	"KEY02_TAKEN": false,
+	"MAILBOX02_OPENED": false,
 }

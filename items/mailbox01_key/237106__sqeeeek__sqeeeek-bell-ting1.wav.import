@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/237106__sqeeeek__sqeeeek-bell-ting1.wav-3425a4d517842d0c9a24a3cdf0d2a230.sample"
+
+[deps]
+
+source_file="res://items/mailbox01_key/237106__sqeeeek__sqeeeek-bell-ting1.wav"
+dest_files=[ "res://.import/237106__sqeeeek__sqeeeek-bell-ting1.wav-3425a4d517842d0c9a24a3cdf0d2a230.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

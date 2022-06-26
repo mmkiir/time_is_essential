@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mailbox_closed.png-38393e13cb96a5734aa294eaa997da8a.stex"
+path="res://.import/mailbox01_closed.png-0d20b4088609fd13ba887c68a8717eff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://items/mailbox_closed/mailbox_closed.png"
-dest_files=[ "res://.import/mailbox_closed.png-38393e13cb96a5734aa294eaa997da8a.stex" ]
+source_file="res://items/mailbox01_closed/mailbox01_closed.png"
+dest_files=[ "res://.import/mailbox01_closed.png-0d20b4088609fd13ba887c68a8717eff.stex" ]
 
 [params]
 

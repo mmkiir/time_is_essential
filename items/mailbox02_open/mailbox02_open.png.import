@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mailbox_key.png-43d5e391be85c70f1842482e9444d25d.stex"
+path="res://.import/mailbox02_open.png-5bd948ea2aa2f9cb29989af7670645ca.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://items/mailbox_key/mailbox_key.png"
-dest_files=[ "res://.import/mailbox_key.png-43d5e391be85c70f1842482e9444d25d.stex" ]
+source_file="res://items/mailbox02_open/mailbox02_open.png"
+dest_files=[ "res://.import/mailbox02_open.png-5bd948ea2aa2f9cb29989af7670645ca.stex" ]
 
 [params]
 
