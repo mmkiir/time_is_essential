@@ -9,3 +9,4 @@ func _process(delta):
 
 func _on_click():
 	$"/root/Game".set_overlay("res://items/overlay_paper05/overlay_paper05.tscn")
+	$AudioStreamPlayer2D.play()
