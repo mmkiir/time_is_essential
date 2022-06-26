@@ -2,7 +2,6 @@ extends "res://items/item.gd"
 
 
 func _process(delta):
-	._process(delta)
 	
 	if not Global.dict_state.MAILBOX02_OPENED:
 		show()
