@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Time is Essential"
-run/main_scene="res://rooms/room01/room01.tscn"
+run/main_scene="res://game/game.tscn"
 config/icon="res://icon.png"
 
 [autoload]
