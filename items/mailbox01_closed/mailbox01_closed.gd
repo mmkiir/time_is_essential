@@ -11,5 +11,6 @@ func _process(delta):
 
 
 func _on_click():
-	Global.dict_state.MAILBOX01_OPENED = true
-	$AudioStreamPlayer2D.play()
+	if Global.dict_state.KEY01_TAKEN:
+		Global.dict_state.MAILBOX01_OPENED = true
+		$AudioStreamPlayer2D.play()
