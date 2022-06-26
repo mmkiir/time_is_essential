@@ -12,3 +12,4 @@ func _process(delta):
 
 func _on_click():
 	Global.dict_state.CARPET_MOVED = true 
+	$AudioStreamPlayer2D.play()

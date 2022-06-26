@@ -12,7 +12,7 @@ func _process(delta):
 
 func _on_click():
 	Global.dict_state.BOX_OPENED = true
-
+	$AudioStreamPlayer2D.play()
 
 
 

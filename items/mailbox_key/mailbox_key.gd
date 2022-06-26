@@ -11,3 +11,4 @@ func _process(delta):
 
 func _on_click():
 	Global.dict_state.KEY01_TAKEN = true
+	$AudioStreamPlayer2D.play()

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/364740__newagesoup__open-cardboard-box-compartment.wav-b39adc9977377b96c3fcb80b5b711f4c.sample"
+
+[deps]
+
+source_file="res://items/box_closed/364740__newagesoup__open-cardboard-box-compartment.wav"
+dest_files=[ "res://.import/364740__newagesoup__open-cardboard-box-compartment.wav-b39adc9977377b96c3fcb80b5b711f4c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
