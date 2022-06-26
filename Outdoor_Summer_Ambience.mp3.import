@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Outdoor_Summer_Ambience.mp3-b8b467616f5aa01532003e015e4cf00b.mp3str"
+
+[deps]
+
+source_file="res://Outdoor_Summer_Ambience.mp3"
+dest_files=[ "res://.import/Outdoor_Summer_Ambience.mp3-b8b467616f5aa01532003e015e4cf00b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

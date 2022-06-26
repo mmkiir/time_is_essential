@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ticking-clock_1-27477.mp3-1bd0d999f8c44296ca848b5969efc50d.mp3str"
+
+[deps]
+
+source_file="res://ticking-clock_1-27477.mp3"
+dest_files=[ "res://.import/ticking-clock_1-27477.mp3-1bd0d999f8c44296ca848b5969efc50d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
