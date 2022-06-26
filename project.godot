@@ -11,14 +11,17 @@ config_version=4
 [application]
 
 config/name="Time is Essential"
-
 run/main_scene="res://rooms/room01/room01.tscn"
-
 config/icon="res://icon.png"
 
 [autoload]
 
 Global="*res://global.tscn"
+
+[display]
+
+window/size/height=576
+window/size/resizable=false
 
 [input]
 
