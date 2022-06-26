@@ -10,9 +10,9 @@ func _on_click():
 
 func _input(event):
 	if event.is_action_pressed("ui_touch") and _mouse_inside_area:
-		_on_click()
 		get_tree().set_input_as_handled()
-		
+		_on_click()
+
 
 func _on_Area2D_mouse_entered():
 	_mouse_inside_area = true

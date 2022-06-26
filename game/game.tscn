@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://game/game.gd" type="Script" id=1]
 [ext_resource path="res://items/ui_watch/ui_watch.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Outdoor_Summer_Ambience.mp3" type="AudioStream" id=3]
+[ext_resource path="res://ticking-clock_1-27477.mp3" type="AudioStream" id=4]
+[ext_resource path="res://items/overlay_watch/overlay_watch.tscn" type="PackedScene" id=5]
 
 [node name="Game" type="Node2D"]
 script = ExtResource( 1 )
@@ -12,3 +15,16 @@ script = ExtResource( 1 )
 
 [node name="Item" parent="." instance=ExtResource( 2 )]
 position = Vector2( 960, 512 )
+
+[node name="OverlayWatch" parent="." instance=ExtResource( 5 )]
+position = Vector2( 1024, 0 )
+WATCH_HAND_REVOLUTION_PERIOD = 10
+
+[node name="Ambience" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = 3.0
+autoplay = true
+
+[node name="Ticking" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+autoplay = true
