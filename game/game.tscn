@@ -18,7 +18,7 @@ position = Vector2( 960, 512 )
 
 [node name="OverlayWatch" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1024, 0 )
-WATCH_HAND_REVOLUTION_PERIOD = 10
+WATCH_HAND_REVOLUTION_PERIOD = 15
 
 [node name="Ambience" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
