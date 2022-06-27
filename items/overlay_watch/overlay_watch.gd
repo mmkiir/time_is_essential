@@ -1,5 +1,6 @@
 extends "res://items/item.gd"
 
+
 export var WATCH_HAND_REVOLUTION_PERIOD: int = 60 # Seconds
 export var WATCH_HAND_SMALL_REVOLUTION_PERIOD: float = 1 # Seconds
 export var SWEET_SPOT_ANGLE: float = 30
@@ -27,6 +28,7 @@ func _on_Timer_timeout():
 	$"/root/Game/OverlayWatch".position = Vector2(1024, 0)
 	$"/root/Game".set_default_dict_state()
 	$"/root/Game".set_room("res://rooms/room01/room01.tscn")
+	$"/root/Game".remove_overlay()
 
 
 func _on_OverlayWatchButton_pressed():
